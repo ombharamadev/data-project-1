@@ -53,5 +53,5 @@ array=[files_name,sgpa_data,cgpa_data]
 
 #code for writing data in csv file 
 df=pd.DataFrame(array).transpose()
-print(df.transpose())
+print(df)
 df.to_csv("result.csv")
