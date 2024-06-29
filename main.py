@@ -9,7 +9,7 @@ html_files=bpharmafile_path+btechfile_path
 print("Total html files in both folders is ",len(html_files))
 
 plus=0
-files_lack_cgpa=[]
+files_lack_cgpa&sgpa=[]
 html0=["20011715005_1800265223.html","15619_1800265830.html","20011715004_1800265851.html","20011715004_1800265710.html"]
 
 for i in html_files:
