@@ -68,9 +68,10 @@ data = {
     "filename": files_name,
     "sgpa": sgpa_data,
     "cgpa": cgpa_data
-}
+} 
+
 
 # Create DataFrame and save to CSV with headers
 df = pd.DataFrame(data)
 print(df)
-df.to_csv("data.csv", index=F
+df.to_csv("data.csv", index=False)
